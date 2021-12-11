@@ -1,0 +1,142 @@
+{
+  "project_info": {
+    "project_number": "655877073964",
+    "project_id": "watertracker-6e9c8",
+    "storage_bucket": "watertracker-6e9c8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:655877073964:android:912695603d64e17e27f589",
+        "android_client_info": {
+          "package_name": "com.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "655877073964-hvrce83smujke18h89q0klt91e091tfv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6e-k-zucueVl4RBb-52hmOmTSz2VZsqM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "655877073964-hvrce83smujke18h89q0klt91e091tfv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:655877073964:android:684da0a61ff0047a27f589",
+        "android_client_info": {
+          "package_name": "com.cpad.aquatracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "655877073964-a5qp0o6mra0a35569qdb5qd707nblk8p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cpad.aquatracker",
+            "certificate_hash": "3a0c384225cd590b0379f0bdc2bf532eace539a6"
+          }
+        },
+        {
+          "client_id": "655877073964-hvrce83smujke18h89q0klt91e091tfv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6e-k-zucueVl4RBb-52hmOmTSz2VZsqM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "655877073964-hvrce83smujke18h89q0klt91e091tfv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:655877073964:android:4adda602c69ee08627f589",
+        "android_client_info": {
+          "package_name": "com.drinkable.drinkable"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "655877073964-3ga0qos07pb915dobarm18708fonsdmc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.drinkable.drinkable",
+            "certificate_hash": "3a0c384225cd590b0379f0bdc2bf532eace539a6"
+          }
+        },
+        {
+          "client_id": "655877073964-hvrce83smujke18h89q0klt91e091tfv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6e-k-zucueVl4RBb-52hmOmTSz2VZsqM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "655877073964-hvrce83smujke18h89q0klt91e091tfv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:655877073964:android:309e6e459c4ce7aa27f589",
+        "android_client_info": {
+          "package_name": "com.group6"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "655877073964-hvrce83smujke18h89q0klt91e091tfv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6e-k-zucueVl4RBb-52hmOmTSz2VZsqM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "655877073964-hvrce83smujke18h89q0klt91e091tfv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
