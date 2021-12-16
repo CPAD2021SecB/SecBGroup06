@@ -21,6 +21,16 @@ void main() async {
     DeviceOrientation.portraitUp
   ]);
 
+  // FlutterLocalNotificationsPlugin notificationsPlugin =
+  //     FlutterLocalNotificationsPlugin();
+  // AndroidInitializationSettings android =
+  //     AndroidInitializationSettings('notification_icon');
+  // IOSInitializationSettings ios = IOSInitializationSettings();
+  // InitializationSettings settings = InitializationSettings(android, ios);
+  // await notificationsPlugin.initialize(
+  //   settings,
+  // );
+
   runApp(MyApp());
 }
 
