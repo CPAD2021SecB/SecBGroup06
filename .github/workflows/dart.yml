@@ -1,0 +1,43 @@
+# This workflow uses actions that are not certified by GitHub.
+# They are provided by a third-party and are governed by
+# separate terms of service, privacy policy, and support
+# documentation.
+
+name: Flutter
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  Build_Deploy:
+    name: Build and Deploy
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      # Installs node
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
+      # Installs firebase tools
+      - name: Install firebase tools
+        run: |
+          npm install
+          npm -g install firebase-tools
+      # Installs flutter
+      - uses: subosito/flutter-action@v1
+        with:
+          flutter-version: '2.5.1'
+      
+      # Installs project dependencies
+      - name: Install dependencies
+        run: flutter pub get
+      - name: Build Project
+        run: flutter build web     
+      - name: Deploy
+        run: firebase deploy --token ${{ secrets.FIREBASE_TOKEN }}
